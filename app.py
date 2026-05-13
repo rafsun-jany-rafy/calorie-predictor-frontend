@@ -20,7 +20,7 @@ This application predicts calories burned during physical activity using a train
 ### ⚙️ Tech Stack:
 - FastAPI (Backend)
 - Streamlit (Frontend)
-- CatBoost / XGBoost Model
+- CatBoost Model
 - Render (Deployment)
 
 ---

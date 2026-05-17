@@ -36,19 +36,30 @@ st.markdown("Enter your details below to predict calories burned.")
 # -----------------------
 # FEATURE INSIGHT
 # -----------------------
-st.subheader("📊 Feature Importance Insight")
+if st.checkbox("📊 Feature Importance Insight"):
+    st.markdown("""
+    - 🏃 Duration → most important factor  
+    - ❤️ Heart Rate → intensity indicator  
+    - ⚖️ Weight → energy consumption  
+    - 📏 Height → metabolic factor  
+    - 🎂 Age → affects metabolism  
+    - 🚻 Gender → physiological variation  
+    - 🌡️ Body Temp → exercise intensity  
+    """)
 
-st.markdown("""
-- 🏃 Duration → most important factor  
-- ❤️ Heart Rate → intensity indicator  
-- ⚖️ Weight → energy consumption  
-- 📏 Height → metabolic factor  
-- 🎂 Age → affects metabolism  
-- 🚻 Gender → physiological variation  
-- 🌡️ Body Temp → exercise intensity  
-""")
+# st.subheader("📊 Feature Importance Insight")
 
-st.divider()
+# st.markdown("""
+# - 🏃 Duration → most important factor  
+# - ❤️ Heart Rate → intensity indicator  
+# - ⚖️ Weight → energy consumption  
+# - 📏 Height → metabolic factor  
+# - 🎂 Age → affects metabolism  
+# - 🚻 Gender → physiological variation  
+# - 🌡️ Body Temp → exercise intensity  
+# """)
+
+# st.divider()
 
 # -----------------------
 # INPUT UI

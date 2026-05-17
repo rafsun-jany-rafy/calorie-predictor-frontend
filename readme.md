@@ -18,7 +18,7 @@ It provides an interactive web interface where users input physical activity dat
 
 ## 🌐 Live Demo
 
-[Click here to open the app][https://calorie-predictor-frontend.streamlit.app/]
+[Click here to open the app](https://calorie-predictor-frontend.streamlit.app/)
 
 
 ## 🧠 System Architecture

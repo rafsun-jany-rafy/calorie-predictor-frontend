@@ -16,6 +16,11 @@ It provides an interactive web interface where users input physical activity dat
 
 ---
 
+## 🌐 Live Demo
+
+Click here to open the app[https://calorie-predictor-frontend.streamlit.app/]
+
+
 ## 🧠 System Architecture
 
 User (Browser)  
@@ -66,6 +71,16 @@ Displayed in UI
 
 ---
 
+## 📁 Project Structure
+```text
+calories_burnt_frontend/
+│
+├── app.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
 ## ⚙️ How It Works
 
 1. User opens Streamlit web app  
@@ -101,11 +116,10 @@ http://localhost:8501
 ## 🌐Backend API
 
 This frontend connects to:
-```bash
+
 https://calorie-predictor-api.onrender.com/predict
 
 https://calorie-predictor-api.onrender.com/docs
-```
 
 ---
 ## 🚨 Important Notes
